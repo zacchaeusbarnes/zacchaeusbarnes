@@ -1,0 +1,86 @@
+/*********   General   *********/
+.wrap{
+  width: 93%;
+  margin: auto;
+}
+
+/*********   Navigation   *********/
+.top-bar{
+  background-color: #blue;
+  background-image: url("../images/random_grey_variations.png");
+  z-index: 99 ;
+}
+.top-bar ul{
+  background-color: transparent;
+  border-style: none;
+}
+.top-bar li{
+  background-image: url("../images/random_grey_variations.png");
+}
+.top-bar h4, .top-bar a{
+  color:red;
+  font-weight: bold;
+  font-family: 'Acme', sans-serif;
+}
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: white transparent transparent;
+}
+
+/*********   Header   *********/
+
+.orbit h3{
+  width:80%;
+  margin: auto;
+  padding-top: 4em;
+}
+.orbit img{
+  max-height: 22em;
+}
+
+/*********   Main   *********/
+.main{
+  padding: 3em 0;
+  background-image: url("../images/cheap_diagonal_fabric.png");
+  background-color: white;
+}
+.main p, .main h3{
+  font-family: 'Acme', sans-serif;
+}
+.main p{
+  font-size: 1.1em;
+}
+.row{
+  width:100%;
+  margin: auto;
+}
+.columns{
+  padding:1em 2em;
+}
+
+/*********   Footer   *********/
+.footer{
+  text-align: center;
+  color:red;
+  background-image: url("../images/random_grey_variations.png");
+  background-color: black;
+  padding: 2em 0;
+}
+
+.footer img{
+  height: 3em;
+  width: 3em;
+}
+.footer p{
+    color: white;
+}
+.footer a{
+  color: white;
+}
+
+.footer h3{
+  color:wite;
+}
+
+a:hover{
+  color:black;
+}
